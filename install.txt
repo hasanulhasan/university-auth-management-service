@@ -4,19 +4,21 @@ yarn add express mongoose
 
 tsc --init
 
-------------rootDir >> outDir
+------------rootDir(src/server.ts) >> outDir
 
-yarn add dotenv
+yarn add dotenv (for creating .env file)
 
 yarn add -D @types/express
 yarn add ts-node-dev --dev
+
+yarn add cors
 yarn add -D @types/cors
 
 yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
 yarn add -D prettier
+yarn add -D eslint-config-prettier
 ----------the link: https://blog.logrocket.com/linting-typescript-eslint-prettier/
 yarn add -D eslint
-yarn add -D prettier
 
 yarn add husky --dev
 yarn husky install
