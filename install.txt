@@ -1,0 +1,29 @@
+yarn add -D typescript
+
+yarn add express mongoose
+
+tsc --init
+
+------------rootDir >> outDir
+
+yarn add dotenv
+
+yarn add -D @types/express
+yarn add ts-node-dev --dev
+yarn add -D @types/cors
+
+yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
+yarn add -D prettier
+----------the link: https://blog.logrocket.com/linting-typescript-eslint-prettier/
+yarn add -D eslint
+yarn add -D prettier
+
+yarn add husky --dev
+yarn husky install
+yarn add -D lint-staged
+
+
+
+
+--> TypeScript Golobal Install
+npm i -g typescript
