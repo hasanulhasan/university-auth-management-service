@@ -20,8 +20,10 @@ yarn add -D eslint-config-prettier
 ----------the link: https://blog.logrocket.com/linting-typescript-eslint-prettier/
 yarn add -D eslint
 
-yarn add husky --dev
+
+yarn add husky --dev  (husky use for resisting git commit wihout checking)
 yarn husky install
+yarn husky add .husky/pre-commit "npm test"
 yarn add -D lint-staged
 
 
