@@ -1,8 +1,8 @@
-import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
-const app: Application = express()
-import usersService from './app/Modules/Users/users.service'
+import express, { Application, Request, Response } from 'express'
 import userRouters from './app/Modules/Users/users.routes'
+import usersService from './app/Modules/Users/users.service'
+const app: Application = express()
 
 app.use(cors())
 
